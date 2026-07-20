@@ -1,0 +1,96 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type Checking
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+
+# LangSmith (if used)
+.langsmith/
+
+# ChromaDB (if using local vector DB)
+chroma/
+chroma_db/
+
+# FAISS Indexes
+*.faiss
+*.pkl
+
+# SQLite Databases
+*.db
+*.sqlite3
+
+# Local Vector Stores
+vectorstore/
+vectorstores/
+data/vectorstore/
+
+# Generated Files
+outputs/
+generated/
+cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# dotenv backup files
+.env.bak
