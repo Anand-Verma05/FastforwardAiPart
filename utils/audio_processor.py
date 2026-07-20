@@ -17,9 +17,11 @@ def download_yt_audio(url:str)->str:
                 "preferredquality": "192",
             }
         ],
-        "quiet": False,#for seeing the downlaod bars in the terminal will use this in frontend
-
+        "quiet": True,
     }
+    
+    
+
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(url, download=True)
         filename = ydl.prepare_filename(info).replace(".webm", ".wav").replace(".m4a", ".wav")
